@@ -2,12 +2,10 @@
 
 ## Installation
 
-install the dependencies with pip
+install the dependencies with pip (Must be in the user space as UHD installs in the user-space)
 ```bash
-python3 -m venv ve
-source ve/bin/activate
 source .env
-pip install -r requirements.txt
+pip install -Ur requirements.txt
 python3 -m notebook notebooks
 ```
 
